@@ -6,7 +6,7 @@ def writebin(path, bytes):
 		a.write(bytes)
 def read(path):
 	with open(path, "rt") as a:
-		a.read()
+		return a.read()
 def readbin(path):
 	with open(path, "rb") as a:
-		a.read()
+		return a.read()
