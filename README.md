@@ -1,6 +1,6 @@
-Welcome to EazyFile!
+Welcome to EasyFile!
 ** Not to be confused with SARS e@zyFile™  **
-EazyFile is a python module by Nikan which lets you make files easily without no need for code such as:
+EazyFile is a python module made by me which lets you make files easily without no need for code such as:
 
     with open("filepath", "wt") as f:
         f.write("text")
