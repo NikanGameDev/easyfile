@@ -5,12 +5,5 @@ EazyFile is a python module made by me which lets you make files easily without 
     with open("filepath", "wt") as f:
         f.write("text")
 But code like:
-`import easyfile
-easyfile.write("path goes here", "text goes here")`
-or code like:
-`import easyfile
-easyfile.writebytes("path goes here", #Bytes go here (images, videos etc.))`
-or also code like:
-`import easyfile
-easyfile.read("path goes here")`
-Using open() is boring to me too, but now that EasyFile exists there's no need.
+`easyfile.write("path goes here", "text goes here")`
+Makes it so much easier!
